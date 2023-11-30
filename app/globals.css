@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 :root {
+  --tw-shadow-color: rgba(0, 0, 0, 0.2);
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+/* :root {
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +27,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+body {
+  background: url("/assets/bg-3.avif");
+  background-size: cover;
+  background-attachment: fixed;
 }
